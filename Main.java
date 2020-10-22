@@ -12,7 +12,7 @@ class Main {
     // int num1 = -1;
     // while(num1<0){
     // keep asking for another number
-    // ask for the new numbe input
+    // ask for the new number as input
     // }
 
     // for loop we know start/stop/increment or decrement
@@ -26,10 +26,11 @@ class Main {
     }
     System.out.println();
     System.out.println("========Nested======");
+
     // nested for loop
-    for (int row = 0; row <= 10; row++) {
-      for (int col = 0; col <= 10; col++) {
-        System.out.print(row + "," + col + "\t");
+    for (int row = 0; row <= 9; row++) {
+      for (int col = 0; col <= 9; col++) {
+        System.out.print(row+","+col + "\t\t");
       }
       System.out.println();
     }
